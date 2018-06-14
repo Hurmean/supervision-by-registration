@@ -158,8 +158,8 @@ def analysis_dataset(dataset):
 
   for index, image_path in enumerate(dataset.datas):
     img = pil_loader(image_path)
-    ws[index] = image.size[0]
-    hs[index] = image.size[1]
+    ws[index] = img.size[0]
+    hs[index] = img.size[1]
     img = np.array(img)
     all_values[:, index] = np.mean(np.mean(img, axis=0), axis=0).astype('float64')
   mean = np.mean(all_values, axis=1)
