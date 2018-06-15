@@ -17,6 +17,7 @@ If you find that Supervision-by-Registration helps your research, please cite th
   title={{Supervision-by-Registration}: An Unsupervised Approach to Improve the Precision of Facial Landmark Detectors},
   author={Dong, Xuanyi and Yu, Shoou-I and Weng, Xinshuo and Wei, Shih-En and Yang, Yi and Sheikh, Yaser},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={360--368},
   year={2018}
 }
 ```
@@ -116,4 +117,4 @@ TiffImagePlugin.py:756: UserWarning: Corrupt EXIF data.  Expecting to read 12 by
 ```
 
 ### Contact
-To ask questions or report issues, please open an issue on the issues tracker.
+To ask questions or report issues, please open an issue on [the issues tracker](https://github.com/facebookresearch/supervision-by-registration/issues).
