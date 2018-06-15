@@ -81,7 +81,7 @@ def generate_300w_list(root, save_dir, box_data, SUFFIX):
   for image_path in imagelist:
     name, ext = osp.splitext(image_path)
     anno_path = name + '.pts'
-    assert osp.isfile(anno_path), 'annotation for : {} does not exist'.format(image)
+    assert osp.isfile(anno_path), 'annotation for : {} does not exist'.format(image_path)
     if name.find('ibug') > 0:
       challenge_set.append( (image_path, anno_path) )
     elif name.find('afw') > 0:
