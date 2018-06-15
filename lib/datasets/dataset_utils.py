@@ -156,7 +156,7 @@ def analysis_dataset(dataset):
   hs = np.zeros((len(dataset.datas),), dtype=np.float64)
   ws = np.zeros((len(dataset.datas),), dtype=np.float64)
 
-  for index, image_path in enumerate(self.datas):
+  for index, image_path in enumerate(dataset.datas):
     img = pil_loader(image_path)
     ws[index] = img.size[0]
     hs[index] = img.size[1]
